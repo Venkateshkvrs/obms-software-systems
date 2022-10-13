@@ -62,7 +62,8 @@ $\bigstar$ &nbsp; <b><i>Notable Results:</i></b><br>
 Only Valid User/ Customer can login in only one terminal at a time <br>
 Multiple Users can login at a time and OBMS serves them efficiently <br>
 Joint Account holder will be blocked if the other joint account holder is making a transcation. After it is done he can continue.<br/>
-*** 
+***
+<br> 
 $$Report\ by$$
 $$Boppana\ Venkatesh$$
 $$MTech\ CSE\ [MT2022140]$$
