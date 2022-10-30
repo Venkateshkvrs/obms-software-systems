@@ -35,7 +35,7 @@ case 6:
 	write_msg(cfd,1,0,"\nEnter Account Number: ");
 	read_msg(cfd,&msg);
 	
-	if(activate_account(atoi(msg.body))){
+	if(deactivate_account(atoi(msg.body))){
 	write_msg(cfd,0,1,"\nAccount De-activation Successful! ");
 	}
 	else{
