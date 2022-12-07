@@ -7,7 +7,7 @@ This project mainly deals with concurrent banking operations in a safe and secur
 The term ‘safe’ refers to consistent transaction management system especially when used by Joint Account holders (to avoid race conditions).<br/>
 The term ‘secure’ refers to authorized Access by Users (Admin/ Customer) and no other person can view/ access the data of concern.<br/>
 </p>
-$\bigstar$ &nbsp; <b><i>Features of OBMS are listed as follows:</i></b><br>
+<b>*</b> &nbsp; <b><i>Features of OBMS are listed as follows:</i></b><br>
 1. Handling multiple connections. i.e., Serving multiple clients simultaneously.<br/>
 2. Socket programming is used to implement client-server model.<br/>
 3. TCP connection for effective and reliable communication.<br/>
@@ -18,9 +18,9 @@ Storage/ Database: Unix File System. i.e., data is stored typically in files onl
 5. Only system calls are used directly, avoiding use of library functions. <br/>
 6. System calls related to process management,  file management, file locking, multi-threading and inter process communication mechanisms were used.<br/>
 7. Password protected login system for both admins and customers.<br/>
-$\bigstar$ &nbsp; <b><i>Operational Workflow:</i></b><br>
+<b>*</b> &nbsp; <b><i>Operational Workflow:</i></b><br>
 <img src="./images/ss2.png" width="" height=""><br/>
-$\bigstar$ &nbsp; <b><i>Functionalities:</i></b><br>	
+<b>*</b> &nbsp; <b><i>Functionalities:</i></b><br>	
 Admin Module: Administrator after successful login, able to do the following operations<br/>
 1.Add new Customer Details,<br/>
 2.Add new Accounts (Regular or Joint) for the above generated customers,<br/>
@@ -35,7 +35,7 @@ Customer Module: Customer after login, can do any of these operations,<br/>
 3.Update Password,<br/>
 4.Check the balance(s) of all the accounts he/she had.<br/>
 <br><br>
-$\bigstar$ &nbsp; <b><i>Implementation:</i></b><br>
+<b>*</b> &nbsp; <b><i>Implementation:</i></b><br>
 a. getters and setters folder deals all operations related to getting and setting of data into files (database).<br/>
 b. handles folder include method definitions to: <br>
 &nbsp;&nbsp;&nbsp; 1. ```add.h``` - add new accounts, customers and transactions.<br/>
@@ -46,7 +46,7 @@ c. records-header file includes all structures of defined types in this system.<
 d. ```my_client.c``` - client program, specific to a user process.<br/>
 e. ```my_server.c``` - server program, handles multiple client requests.<br/>
 
-$\bigstar$ &nbsp; <b><i>Execution:</i></b><br>
+<b>*</b> &nbsp; <b><i>Execution:</i></b><br>
 Server Program could be run on background or in another terminal 
 by the command ```./server.out ```<br/>
 since, we already saved executable code in <br> ```server.out``` by the command, <br> ```gcc my_server.c -o server.out ```<br> and of ```client.out``` by the command, <br> ```gcc my_client.c -o client.out```
@@ -64,7 +64,7 @@ Multiple Users can login at a time and OBMS serves them efficiently <br>
 Joint Account holders can access the account at the same time but, will be blocked if the other joint account holder is making a transcation. After it is done he/she can continue.<br/>
 ***
 <br> 
-$$Report\ by$$
-$$Boppana\ Venkatesh$$
-$$MTech\ CSE\ [MT2022140]$$
-$$International\ Institute\ of\ Information\ Technology,\ Bangalore.$$
+<i>Report by, </i> <br/>
+Boppana Venkatesh <br/>
+MTech CSE [MT2022140] <br/>
+International Institute of Information Technology, Bangalore. <br/>
